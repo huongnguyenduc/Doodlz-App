@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phần mềm Doodlz</string>
+    <string name="button_erase">Xóa hình ảnh</string>
+    <string name="button_cancel">Hủy bỏ</string>
+    <string name="button_set_color">Lưu màu</string>
+    <string name="button_set_line_width">Lưu độ rộng</string>
+    <string name="button_set_language">Lưu ngôn ngữ</string>
+    <string name="line_imageview_description">Hiển thị độ rộng nét vẽ</string>
+    <string name="label_red">Đỏ</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_green">Lục</string>
+    <string name="label_blue">Lam</string>
+    <string name="menuitem_clear">Xóa màn hình</string>
+    <string name="menuitem_color">Màu vẽ</string>
+    <string name="menuitem_eraser">Tẩy</string>
+    <string name="menuitem_line_width">Độ rộng nét</string>
+    <string name="menuitem_save">Lưu</string>
+    <string name="menuitem_print">In</string>
+    <string name="menuitem_language">Ngôn ngữ</string>
+    <string name="message_erase">Ban có muốn tẩy?</string>
+    <string name="message_error_saving">Có sự cố khi lưu ảnh</string>
+    <string name="message_saved">Bản vẽ của bạn đã được lưu vào Bộ sưu tập</string>
+    <string name="message_error_printing">Thiết bị của bạn không hỗ trợ in</string>
+    <string name="title_color_dialog">Chọn màu</string>
+    <string name="title_line_width_dialog">Chọn độ rộng nét</string>
+    <string name="language_dialog">Chọn ngôn ngữ</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="changeBackground">Nền</string>
+</resources>
