@@ -22,11 +22,10 @@ public class LanguageDialogFragment extends DialogFragment
          public void onClick(DialogInterface dialog, int which) {
             switch (which) {
                case 0: //English
-                  setLocaleRequest("en");
+                  sendLocaleRequest("en");
                   break;
                case 1: //Vietnamese
-                  setLocaleRequest("vi");
-                  break;
+                  sendLocaleRequest("vi");
             }
             dialog.dismiss();
             getActivity().recreate();
@@ -35,8 +34,9 @@ public class LanguageDialogFragment extends DialogFragment
       return builder.create();
    }
 
-   private void setLocaleRequest(String lang) {
-      SharedPreferences.Editor sharePref = getActivity().getSharedPreferences("Language", Context.MODE_PRIVATE).edit();
+   private void sendLocaleRequest(String lang) {
+      SharedPreferences.Editor sharePref =
+              getActivity().getSharedPreferences("Language", Context.MODE_PRIVATE).edit();
       sharePref.putString("My_Lang", lang);
       sharePref.apply();
    }

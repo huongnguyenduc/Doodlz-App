@@ -9,6 +9,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 
+import java.io.Console;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,10 +39,6 @@ public class MainActivity extends AppCompatActivity {
         Configuration config = new Configuration();
         config.locale = locale;
         getResources().updateConfiguration(config, getResources().getDisplayMetrics());
-
-        SharedPreferences.Editor editor = getSharedPreferences("Language", Context.MODE_PRIVATE).edit();
-        editor.putString("My_Lang", lang);
-        editor.apply();
     }
 
     private void loadLocale() {
